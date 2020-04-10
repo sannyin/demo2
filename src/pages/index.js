@@ -3,8 +3,9 @@ import styles from "./index.css";
 import request from 'universal-request';
 import { connect } from "dva";
 import { Menu, Button, Icon,message } from "antd";
-import Miuse from './components/Miuse'
-import Time from './components/Time'
+// import Miuse from './components/Miuse'
+// import Time from './components/Time'
+import Number from './components/Number'
 
 function Home() {
   const themes = {
@@ -117,8 +118,9 @@ function Home() {
         >
           I am styled by theme context!
         </Button>
-        <Miuse></Miuse>
-        <Time></Time>
+        {/* <Miuse></Miuse>
+        <Time></Time> */}
+        <Number></Number>
       </div>
     </div>
   );

@@ -12,13 +12,14 @@ function BasicLayout(props) {
     //   {props.children}
     // </div>
     <div className={styles.main}>
-      <div className={styles.left}>
+      {/* <div className={styles.left}>
         <div className={styles.leftTitle}> 大促运营平台 </div>{" "}
         <div className={styles.leftmeau}>
           <Sider> </Sider>{" "}
         </div>{" "}
       </div>{" "}
-      <div className={styles.right}> {/* {props.children} */} </div>{" "}
+      <div className={styles.right}> {} </div>{" "} */}
+      {props.children}
     </div>
   );
 }
