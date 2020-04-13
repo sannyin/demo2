@@ -6,7 +6,8 @@ import { Menu, Button, Icon,message } from "antd";
 // import Miuse from './components/Miuse'
 // import Time from './components/Time'
 import Number from './components/Number'
-
+import User from './components/User'
+import Page from './Page/Page'
 function Home() {
   const themes = {
     light: {
@@ -120,7 +121,9 @@ function Home() {
         </Button>
         {/* <Miuse></Miuse>
         <Time></Time> */}
-        <Number></Number>
+        {/* <Number></Number>
+        <User></User> */}
+        <Page></Page>
       </div>
     </div>
   );
